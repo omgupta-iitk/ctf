@@ -1,0 +1,4 @@
+docker run -p 1338:1338 image_name
+id=$(docker create image-name)
+docker cp $id:path - > local-tar-file
+docker rm -v $id
