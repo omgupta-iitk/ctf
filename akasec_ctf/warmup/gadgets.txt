@@ -1,6 +1,0 @@
-0x000000000010f75b : pop rdi ; ret
-0x00000000000eef34 : mov eax, 0x3b ; syscall
-1cb42f : /bin/sh
-0x0000000000110a4d : pop rsi ; ret
-0x00000000001449ba : pop rdx ; add byte ptr [rax], al ; add byte ptr [rax - 1]
-0x00000000000288b5 : syscall
